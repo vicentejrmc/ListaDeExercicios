@@ -14,10 +14,10 @@ namespace Exercicio01
             Console.Write("Digite a largura: ");
             double largura = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite a altura: ");
+            Console.Write("Digite a altura: ");
             double altura = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o comprimento: ");
+            Console.Write("Digite o comprimento: ");
             double comprimento = double.Parse(Console.ReadLine());
 
             double volume = largura * altura * comprimento;
