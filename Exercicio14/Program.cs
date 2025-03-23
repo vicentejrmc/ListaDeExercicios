@@ -7,7 +7,7 @@ namespace Exercicio14
         // Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente.
         static void Main(string[] args)
         {
-            Console.WriteLine("--- Impressão decrescente de valores Decrescente ---\n");
+            Console.WriteLine("--- Impressão Decrescente de valores. ---\n");
 
             Console.WriteLine("Digite tres valores inteiros para que eu os organizarei para você.");
 

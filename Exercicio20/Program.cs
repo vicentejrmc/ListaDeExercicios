@@ -19,6 +19,14 @@
                 Console.Write("Digite um numero de 1 a 10: ");
                 int numero = Convert.ToInt32(Console.ReadLine());
 
+                if(numero > 10)
+                {
+                    Console.WriteLine("Numero invalido, digite um numero de 1 a 10");
+                    Console.Write("Pressione Enter para tentar novamente");
+                    Console.ReadLine();
+                    continue;
+                }
+
                 Console.WriteLine($"--- A tabuada de {numero} é: ---");
                 for (int i = 1; i <= 10; i++)
                 {

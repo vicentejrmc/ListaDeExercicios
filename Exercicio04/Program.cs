@@ -9,7 +9,7 @@ namespace Exercicio04
         static void Main(string[] args)
         {
             Console.WriteLine("----------------------------------");
-            Console.WriteLine("Conversor Celcios para Fahrenheit.");
+            Console.WriteLine("Conversor Celsius para Fahrenheit.");
             Console.WriteLine("----------------------------------\n");
           
             Console.Write("Digite a temperatura em Celsius: ");

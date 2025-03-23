@@ -10,7 +10,7 @@
                 Console.Clear();
                 Console.WriteLine("---- O numereo é Par ou Impar? ----\n");
 
-                Console.Write("Digite um numero qualquer: ");
+                Console.Write("Digite um numero: ");
                 double numero = Convert.ToDouble(Console.ReadLine());
 
                 if (numero % 2 == 0)
@@ -18,7 +18,7 @@
                 else
                     Console.WriteLine("O numero digitado é IMPAR.");
 
-                Console.Write("\nVerificar ou numero? S/N": );
+                Console.Write("\nVerificar outro numero? S/N: " );
                 string opcao = Console.ReadLine().ToUpper();
                 if(opcao != "S")
                     break;

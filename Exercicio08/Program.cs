@@ -17,6 +17,7 @@
                 int numero = Convert.ToInt32(Console.ReadLine());
 
                 bool ePrimo = true;
+
                 if (numero % 2 == 0)
                     ePrimo = false;
 

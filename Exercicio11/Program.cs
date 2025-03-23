@@ -25,7 +25,6 @@ namespace Exercicio11
 
             Console.WriteLine($"{nome}, VOCÊ JÁ VIVEU {diasVividos} DIAS!");
 
-
             Console.ReadLine();
         }
     }

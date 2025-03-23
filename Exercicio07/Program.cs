@@ -28,6 +28,7 @@
             double peso2 = Convert.ToDouble(Console.ReadLine());
 
             double mediaPonderada = (nota1 * peso1 + nota2 * peso2) / (peso1 + peso2);
+
             string situacaoAluno = mediaPonderada < 6 ? "Reprovado" : "Aprovado";
 
             Console.WriteLine("---- Calculo Média Ponderada ----\n");

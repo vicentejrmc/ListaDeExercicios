@@ -11,12 +11,16 @@
             int numerosImpares = 0;
 
             Console.WriteLine("Os numeros ímpares entre 100 e 200 são:");
-            for (int i = 100; i < 200; i++)
+            for (int i = 100; i <= 200; i++)
             {
                 if (i % 2 != 0)
                 {
                     numerosImpares = i;
-                    Console.Write($"{numerosImpares}, ");
+                    Console.Write($"{numerosImpares}");
+                    if (i < 199)
+                        Console.Write(", ");
+                    else
+                        Console.Write(".");
                 }
             }
 

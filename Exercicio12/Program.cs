@@ -14,7 +14,7 @@ namespace Exercicio12
             string nome = Console.ReadLine();
 
             Console.Write("Digite o valor do Salário: ");
-            double salario = double.Parse(Console.ReadLine());
+            double salario = Convert.ToDouble(Console.ReadLine());
 
             double salarioAumento = salario * 0.15;
             salarioAumento += salario;

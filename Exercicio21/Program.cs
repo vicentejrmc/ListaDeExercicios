@@ -2,10 +2,8 @@
 {
     internal class Program
     {
-        //Escreva um algoritmo que leia um valor inicial A e imprima a sequência de valores do cálculo de A! e o seu
-        //resultado.
+        //Escreva um algoritmo que leia um valor inicial A e imprima a sequência de valores do cálculo de A! (Fatorial) e o seu resultado
         //a.Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120
-        //b.Pesquise sobre “fatorial”
 
         static void Main(string[] args)
         {
@@ -15,7 +13,7 @@
                 Console.Clear();
                 Console.WriteLine("---- Fatorial ----\n");
 
-                Console.Write("Digite um numero: ");
+                Console.Write("Digite um numero (Maximo = 33): ");
                 int numero = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine($"O resultado do fatorial de {numero} é:");
@@ -25,8 +23,10 @@
                 for (int i = numero; i > 0; i--)
                 {
                     fatorial *= i;
+                    if (i >= 1)
+                        Console.Write(i);
                     if (i > 1)
-                        Console.Write($"{i} x ");
+                        Console.Write(" X ");
                 }
 
                 Console.WriteLine($"= {fatorial}");

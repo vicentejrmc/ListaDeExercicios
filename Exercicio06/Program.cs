@@ -9,7 +9,7 @@ namespace Exercicio06
         // Crie um programa para calcular a média harmônica das notas de um Aluno
         // ----------------------------------------------------------
         // Forma simplificada de calcular a média harmônica:
-        // Formula = quantidadeDeNotas / (somaDasNotas = 1/nota1 + 1/nota2 + 1/nota3 + ... + 1/notan)
+        // Formula: quantidadeDeNotas / somaDasNotas = (1/nota1 + 1/nota2 + 1/nota3 + ... + 1/notan)
         // 1. solicitar quantidade de notas - 2. criar array de notas - 3. somar array de notas(1/notas + ...)
         // 4 .dividir quantidade de notas pela soma das notas - 5. exibir resultado
 

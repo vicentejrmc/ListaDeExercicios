@@ -5,7 +5,7 @@
         // 22. Escreva um programa que leia um número e imprima a sequência de Fibonacci até esse número.
         // Fibonacci: 0 1 1 2 3 5 8 13 21 34 55 89 144 ...
         // formula:
-        // W. c < numero;
+        // While c < numero;
         // c = a + b; if c < numero = cw;
         // a = b; b = c;
         static void Main(string[] args)

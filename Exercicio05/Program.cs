@@ -35,7 +35,7 @@ namespace Exercicio05
             Console.WriteLine($" - Nome do Vendedor: {nomeVendedor}.");
             Console.WriteLine($" - Salario base: {salarioBase.ToString("F2", CI)} R$");
             Console.WriteLine($" - Total de vendas: {totalVendas.ToString("F2", CI)} R$");
-            Console.WriteLine($" - Valor total de Comissão: {comissao.ToString("F2", CI)} R$");
+            Console.WriteLine($" - Valor total de Comissão:({percentualComissao}%) {comissao.ToString("F2", CI)} R$");
             Console.WriteLine($" - Salario Total a ser Pago: {salarioTotal.ToString("F2", CI )} R$");
 
             Console.ReadLine();
